@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_interfaces/srv/Pizza.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Bool.idl"
+
+module turtle_interfaces {
+  module srv {
+    struct Pizza_Request {
+      std_msgs::msg::Bool pizza_spawn;
+
+      std_msgs::msg::Bool pizza_save;
+
+      std_msgs::msg::Bool pizza_clear;
+    };
+    struct Pizza_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+std_msgs/Bool pizza_spawn
+std_msgs/Bool pizza_save
+std_msgs/Bool pizza_clear
