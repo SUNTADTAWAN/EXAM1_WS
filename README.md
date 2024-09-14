@@ -1,5 +1,11 @@
 # FRA501 EXAM 6531 6562
 
+## Information
+1. Architecture
+
+
+
+
 ## How to run
 
 ### 1. Setup the Environment
@@ -50,5 +56,4 @@
 
 
 
-## Information of this Workspace
-1. Architecture
+
