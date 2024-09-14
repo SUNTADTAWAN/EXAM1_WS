@@ -9,3 +9,11 @@
     cd 
     ```
 ### 2. Build the Firmware
+1. Build
+    ```sh
+    colon build
+    ``` 
+2. Source
+   ```sh
+   source ~/EXAM1_WS/install/setup.bash 
+   ```
