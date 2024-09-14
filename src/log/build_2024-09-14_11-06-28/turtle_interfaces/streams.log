@@ -1,0 +1,234 @@
+[0.013s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/aitthikit/Documents/GitHub/EXAM1_WS/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.609s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.673s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.683s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.697s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.804s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.139s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.785s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.789s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.818s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.818s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.818s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.819s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.843s] -- Found PythonExtra: .so  
+[1.920s] -- Added test 'lint_cmake' to check CMake code style
+[1.922s] -- Added test 'xmllint' to check XML markup files
+[1.928s] -- Configuring done
+[1.960s] -- Generating done
+[1.963s] -- Build files have been written to: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces
+[1.970s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/aitthikit/Documents/GitHub/EXAM1_WS/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces
+[1.971s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces -- -j12 -l12
+[2.011s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.021s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.030s] [  6%] Built target ament_cmake_python_copy_turtle_interfaces
+[2.278s] running egg_info
+[2.279s] creating turtle_interfaces.egg-info
+[2.279s] writing turtle_interfaces.egg-info/PKG-INFO
+[2.279s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[2.279s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[2.279s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.281s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.281s] [  6%] Built target turtle_interfaces__cpp
+[2.281s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.283s] [  9%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/pizza__functions.c.o[0m
+[2.292s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.292s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.293s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.308s] [ 19%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[2.342s] [ 22%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[2.379s] [ 22%] Built target turtle_interfaces__rosidl_generator_c
+[2.389s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.389s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.390s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.524s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/pizza__type_support.cpp.o[0m
+[2.548s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/pizza__type_support.cpp.o[0m
+[2.558s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/pizza__type_support.cpp.o[0m
+[2.618s] [ 45%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/pizza__type_support.cpp.o[0m
+[2.650s] [ 48%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[2.674s] [ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/pizza__type_support_c.cpp.o[0m
+[2.681s] [ 54%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/pizza__type_support.c.o[0m
+[2.696s] [ 54%] Built target turtle_interfaces__rosidl_typesupport_c
+[2.722s] [ 58%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.756s] [ 58%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[2.787s] [ 61%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[2.828s] [ 61%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[2.907s] [ 64%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.939s] [ 67%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.969s] [ 67%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[2.994s] [ 70%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.009s] [ 70%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.063s] [ 70%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[3.082s] [ 70%] Built target turtle_interfaces
+[3.101s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.422s] [ 74%] Built target turtle_interfaces__py
+[3.443s] [ 77%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_pizza_s.c.o[0m
+[3.540s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[3.578s] [ 80%] Built target turtle_interfaces__rosidl_generator_py
+[3.598s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.598s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.598s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.697s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.697s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.697s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.738s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.738s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.738s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[3.749s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces -- -j12 -l12
+[3.817s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces
+[3.826s] -- Install configuration: ""
+[3.826s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[3.826s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.826s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.826s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.826s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__struct.h
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__type_support.h
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__functions.h
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__functions.c
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/pizza.h
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.827s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[3.828s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[3.828s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[3.828s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[3.828s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.829s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__rosidl_typesupport_fastrtps_c.h
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.829s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.829s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.829s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.829s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__traits.hpp
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__builder.hpp
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__struct.hpp
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/pizza.hpp
+[3.830s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.830s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.830s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__rosidl_typesupport_fastrtps_cpp.hpp
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[3.830s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.830s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.831s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.831s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.831s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.831s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.831s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.831s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__type_support.c
+[3.831s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__rosidl_typesupport_introspection_c.h
+[3.831s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.831s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.831s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[3.831s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.832s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[3.832s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[3.832s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.832s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.832s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.832s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__rosidl_typesupport_introspection_cpp.hpp
+[3.832s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/pizza__type_support.cpp
+[3.832s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.833s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.833s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[3.833s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.833s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[3.833s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[3.833s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.834s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_pizza.py
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_pizza_s.c
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[3.835s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[3.877s] Listing '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[3.878s] Compiling '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[3.878s] Listing '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[3.878s] Compiling '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[3.878s] Compiling '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_pizza.py'...
+[3.881s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.882s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.882s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.882s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.882s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.883s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.883s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[3.883s] -- Set runtime path of "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[3.883s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/srv/Pizza.idl
+[3.883s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/srv/Pizza.srv
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/srv/Pizza_Request.msg
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/srv/Pizza_Response.msg
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[3.884s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[3.885s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.886s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[3.887s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.888s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.889s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.889s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.889s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[3.889s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[3.889s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[3.891s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/turtle_interfaces

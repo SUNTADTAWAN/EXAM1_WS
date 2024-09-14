@@ -1,0 +1,12 @@
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/uninstall.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/taohunza_uninstall.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/ament_cmake_python_copy_taohunza.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/ament_cmake_python_build_taohunza_egg.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/cpp_node_test.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/test.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/edit_cache.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/rebuild_cache.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/list_install_components.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/install.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/install/local.dir
+/home/aitthikit/Documents/GitHub/EXAM1_WS/src/build/taohunza/CMakeFiles/install/strip.dir

@@ -1,0 +1,22 @@
+[0.747s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/teleop_twist_keyboard': PYTHONPATH=/home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/build install --record /home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[0.998s] running egg_info
+[0.999s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[0.999s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[0.999s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[0.999s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.000s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.001s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.001s] adding license file 'LICENSE'
+[1.001s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] running install
+[1.002s] running install_lib
+[1.003s] running install_data
+[1.003s] running install_egg_info
+[1.005s] removing '/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info' (and everything under it)
+[1.005s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info
+[1.006s] running install_scripts
+[1.026s] Installing teleop_twist_keyboard script to /home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.026s] writing list of installed files to '/home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/install.log'
+[1.046s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/build install --record /home/aitthikit/Documents/GitHub/EXAM1_WS/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data

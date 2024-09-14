@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_interfaces/srv/Pizza.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Int16.idl"
+
+module turtle_interfaces {
+  module srv {
+    struct Pizza_Request {
+      std_msgs::msg::Int16 tao1;
+
+      std_msgs::msg::Int16 tao2;
+
+      std_msgs::msg::Int16 tao3;
+
+      std_msgs::msg::Int16 tao4;
+    };
+    struct Pizza_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

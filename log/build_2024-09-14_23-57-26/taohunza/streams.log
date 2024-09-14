@@ -1,0 +1,58 @@
+[0.026s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza -- -j12 -l12
+[0.296s] [100%] Built target cpp_node_test
+[0.296s] [100%] Built target ament_cmake_python_copy_taohunza
+[0.334s] running egg_info
+[0.334s] writing taohunza.egg-info/PKG-INFO
+[0.335s] writing dependency_links to taohunza.egg-info/dependency_links.txt
+[0.335s] writing top-level names to taohunza.egg-info/top_level.txt
+[0.337s] reading manifest file 'taohunza.egg-info/SOURCES.txt'
+[0.337s] writing manifest file 'taohunza.egg-info/SOURCES.txt'
+[0.372s] [100%] Built target ament_cmake_python_build_taohunza_egg
+[0.388s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza -- -j12 -l12
+[0.429s] Invoking command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza
+[0.438s] -- Install configuration: ""
+[0.439s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/pythonpath.sh
+[0.439s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/pythonpath.dsv
+[0.440s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info
+[0.440s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.440s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.440s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/top_level.txt
+[0.440s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/PKG-INFO
+[0.440s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza
+[0.440s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/__init__.py
+[0.440s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/dummy_module.py
+[0.501s] Listing '/home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza'...
+[0.506s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/dummy_script.py
+[0.506s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/turtle_teleop_node.py
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/pizza_memory_node.py
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/copy_turtle_node.py
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/cpp_node_test
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/launch
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/launch/turtle_launch.py
+[0.507s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/config
+[0.507s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/config/pizza_memory.yaml
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts/pizza_memory_node.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts/copy_turtle_node.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts/dummy_script.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts/node1.py
+[0.508s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/scripts/turtle_teleop_node.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/taohunza
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/taohunza/__init__.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/taohunza/dummy_module.py
+[0.508s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/ament_index/resource_index/package_run_dependencies/taohunza
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/ament_index/resource_index/parent_prefix_path/taohunza
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/ament_prefix_path.sh
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/ament_prefix_path.dsv
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/path.sh
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/environment/path.dsv
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/local_setup.bash
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/local_setup.sh
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/local_setup.zsh
+[0.509s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/local_setup.dsv
+[0.509s] -- Installing: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/package.dsv
+[0.510s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/ament_index/resource_index/packages/taohunza
+[0.510s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/cmake/taohunzaConfig.cmake
+[0.510s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/cmake/taohunzaConfig-version.cmake
+[0.510s] -- Up-to-date: /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/package.xml
+[0.512s] Invoked command in '/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aitthikit/Documents/GitHub/EXAM1_WS/install/teleop_twist_keyboard:/home/aitthikit/Memekhos_ws/install/launch_testing_examples:/home/aitthikit/Memekhos_ws/install/examples_rclpy_pointcloud_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_subscriber:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_service:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_publisher:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_server:/home/aitthikit/Memekhos_ws/install/examples_rclpy_minimal_action_client:/home/aitthikit/Memekhos_ws/install/examples_rclpy_guard_conditions:/home/aitthikit/Memekhos_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza

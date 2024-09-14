@@ -1,8 +1,8 @@
-# Install script for directory: /home/tadtawan/EXAM1_WS/src/taohunza
+# Install script for directory: /home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tadtawan/EXAM1_WS/install/taohunza")
+  set(CMAKE_INSTALL_PREFIX "/home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,31 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_python/taohunza/taohunza.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_python/taohunza/taohunza.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/taohunza" TYPE DIRECTORY FILES "/home/tadtawan/EXAM1_WS/src/taohunza/taohunza/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/taohunza" TYPE DIRECTORY FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/taohunza/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza"
+        "/home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza"
       )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES "/home/tadtawan/EXAM1_WS/src/taohunza/scripts/dummy_script.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -77,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/taohunza/cpp_node_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE EXECUTABLE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/cpp_node_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE EXECUTABLE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/cpp_node_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/taohunza/cpp_node_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/taohunza/cpp_node_test")
     file(RPATH_CHANGE
@@ -91,15 +87,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES "")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/turtle_teleop_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/pizza_memory_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/copy_turtle_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/Melodic_turtle_node.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/taohunza")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/launch"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/config"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/taohunza"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/taohunza")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/taohunza")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/taohunza")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -107,7 +117,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,42 +125,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/environment" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/packages/taohunza")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_index/share/ament_index/resource_index/packages/taohunza")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza/cmake" TYPE FILE FILES
-    "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_core/taohunzaConfig.cmake"
-    "/home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_core/taohunzaConfig-version.cmake"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_core/taohunzaConfig.cmake"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/ament_cmake_core/taohunzaConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/tadtawan/EXAM1_WS/src/taohunza/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE FILE FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -161,5 +171,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tadtawan/EXAM1_WS/build/taohunza/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aitthikit/Documents/GitHub/EXAM1_WS/build/taohunza/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

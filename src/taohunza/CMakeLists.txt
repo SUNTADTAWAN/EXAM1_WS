@@ -25,11 +25,6 @@ find_package(rclpy REQUIRED)                	# python (optional)
 # Install Python Module
 ament_python_install_package(${PROJECT_NAME})
 
-# Install Python executables
-install(PROGRAMS
-  scripts/dummy_script.py
-  DESTINATION lib/${PROJECT_NAME}
-)
 
 
 # Include Cpp "include" directory
@@ -45,8 +40,22 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# Install Python executables
+install(PROGRAMS
+  scripts/turtle_teleop_node.py
+  scripts/pizza_memory_node.py
+  scripts/copy_turtle_node.py
+  scripts/Melodic_turtle_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
+  launch
+  config
+  scripts
+  taohunza
   # add directories here
   DESTINATION share/${PROJECT_NAME})
 
