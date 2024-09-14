@@ -1,9 +1,9 @@
 # FRA501 EXAM 6531 6562
 
 ## Information
-1. Architecture
+### 1. Architecture
 
-    1.1.taohunza package
+    1.1.taohunza package :
     ![Alt text](architecture.png)
     This package have input from teleop_twist_keyboard package
 
