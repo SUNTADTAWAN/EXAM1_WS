@@ -56,7 +56,11 @@
     ```
 2. Something else :
    
-   2.1 Ask chatGPT
+   2.1. Kill all node
+   2.2. Restart your computer
+   2.3. Ask chatGPT and let's fix it
+
+   
 
 
 
