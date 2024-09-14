@@ -3,11 +3,11 @@
 ### 1. Setup the Environment
 1. Clone the repository:
     ```sh
-    git clone 
+    git clone https://github.com/SUNTADTAWAN/EXAM1_WS.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd 
+    cd EXAM1_WS
     ```
 ### 2. Build the Firmware
 1. Build
