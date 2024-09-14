@@ -44,5 +44,6 @@
    
     2.2. Rebuild & source
     ```sh
+    colon build
     source install/setup.bash
     ```
