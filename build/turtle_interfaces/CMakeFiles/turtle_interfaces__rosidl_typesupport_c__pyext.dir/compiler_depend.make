@@ -245,11 +245,9 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
   rosidl_generator_c/turtle_interfaces/srv/detail/pizza__type_support.h \
   rosidl_generator_c/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/turtle_interfaces/srv/detail/pizza__struct.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.h \
   rosidl_generator_c/turtle_interfaces/srv/detail/pizza__functions.h
 
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.h:
 
 rosidl_generator_c/turtle_interfaces/srv/detail/pizza__type_support.h:
 
@@ -496,6 +494,8 @@ rosidl_generator_c/turtle_interfaces/srv/detail/pizza__functions.h:
 /usr/include/python3.10/patchlevel.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 

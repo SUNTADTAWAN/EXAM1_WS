@@ -15,10 +15,11 @@
 #include "rosidl_runtime_cpp/traits.hpp"
 
 // Include directives for member types
-// Member 'pizza_spawn'
-// Member 'pizza_save'
-// Member 'pizza_clear'
-#include "std_msgs/msg/detail/bool__traits.hpp"
+// Member 'tao1'
+// Member 'tao2'
+// Member 'tao3'
+// Member 'tao4'
+#include "std_msgs/msg/detail/int16__traits.hpp"
 
 namespace turtle_interfaces
 {
@@ -31,24 +32,31 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: pizza_spawn
+  // member: tao1
   {
-    out << "pizza_spawn: ";
-    to_flow_style_yaml(msg.pizza_spawn, out);
+    out << "tao1: ";
+    to_flow_style_yaml(msg.tao1, out);
     out << ", ";
   }
 
-  // member: pizza_save
+  // member: tao2
   {
-    out << "pizza_save: ";
-    to_flow_style_yaml(msg.pizza_save, out);
+    out << "tao2: ";
+    to_flow_style_yaml(msg.tao2, out);
     out << ", ";
   }
 
-  // member: pizza_clear
+  // member: tao3
   {
-    out << "pizza_clear: ";
-    to_flow_style_yaml(msg.pizza_clear, out);
+    out << "tao3: ";
+    to_flow_style_yaml(msg.tao3, out);
+    out << ", ";
+  }
+
+  // member: tao4
+  {
+    out << "tao4: ";
+    to_flow_style_yaml(msg.tao4, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -57,31 +65,40 @@ inline void to_block_style_yaml(
   const Pizza_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: pizza_spawn
+  // member: tao1
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "pizza_spawn:\n";
-    to_block_style_yaml(msg.pizza_spawn, out, indentation + 2);
+    out << "tao1:\n";
+    to_block_style_yaml(msg.tao1, out, indentation + 2);
   }
 
-  // member: pizza_save
+  // member: tao2
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "pizza_save:\n";
-    to_block_style_yaml(msg.pizza_save, out, indentation + 2);
+    out << "tao2:\n";
+    to_block_style_yaml(msg.tao2, out, indentation + 2);
   }
 
-  // member: pizza_clear
+  // member: tao3
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "pizza_clear:\n";
-    to_block_style_yaml(msg.pizza_clear, out, indentation + 2);
+    out << "tao3:\n";
+    to_block_style_yaml(msg.tao3, out, indentation + 2);
+  }
+
+  // member: tao4
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "tao4:\n";
+    to_block_style_yaml(msg.tao4, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 
@@ -131,11 +148,11 @@ inline const char * name<turtle_interfaces::srv::Pizza_Request>()
 
 template<>
 struct has_fixed_size<turtle_interfaces::srv::Pizza_Request>
-  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Bool>::value> {};
+  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Int16>::value> {};
 
 template<>
 struct has_bounded_size<turtle_interfaces::srv::Pizza_Request>
-  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Bool>::value> {};
+  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Int16>::value> {};
 
 template<>
 struct is_message<turtle_interfaces::srv::Pizza_Request>

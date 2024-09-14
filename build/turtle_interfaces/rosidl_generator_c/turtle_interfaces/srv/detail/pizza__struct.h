@@ -18,17 +18,19 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'pizza_spawn'
-// Member 'pizza_save'
-// Member 'pizza_clear'
-#include "std_msgs/msg/detail/bool__struct.h"
+// Member 'tao1'
+// Member 'tao2'
+// Member 'tao3'
+// Member 'tao4'
+#include "std_msgs/msg/detail/int16__struct.h"
 
 /// Struct defined in srv/Pizza in the package turtle_interfaces.
 typedef struct turtle_interfaces__srv__Pizza_Request
 {
-  std_msgs__msg__Bool pizza_spawn;
-  std_msgs__msg__Bool pizza_save;
-  std_msgs__msg__Bool pizza_clear;
+  std_msgs__msg__Int16 tao1;
+  std_msgs__msg__Int16 tao2;
+  std_msgs__msg__Int16 tao3;
+  std_msgs__msg__Int16 tao4;
 } turtle_interfaces__srv__Pizza_Request;
 
 // Struct for a sequence of turtle_interfaces__srv__Pizza_Request.

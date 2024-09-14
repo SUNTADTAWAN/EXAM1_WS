@@ -34,23 +34,23 @@ extern "C"
 {
 #endif
 
-#include "std_msgs/msg/detail/bool__functions.h"  // pizza_clear, pizza_save, pizza_spawn
+#include "std_msgs/msg/detail/int16__functions.h"  // tao1, tao2, tao3, tao4
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtle_interfaces
-size_t get_serialized_size_std_msgs__msg__Bool(
+size_t get_serialized_size_std_msgs__msg__Int16(
   const void * untyped_ros_message,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtle_interfaces
-size_t max_serialized_size_std_msgs__msg__Bool(
+size_t max_serialized_size_std_msgs__msg__Int16(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtle_interfaces
 const rosidl_message_type_support_t *
-  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool)();
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16)();
 
 
 using _Pizza_Request__ros_msg_type = turtle_interfaces__srv__Pizza_Request;
@@ -64,43 +64,57 @@ static bool _Pizza_Request__cdr_serialize(
     return false;
   }
   const _Pizza_Request__ros_msg_type * ros_message = static_cast<const _Pizza_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: pizza_spawn
+  // Field name: tao1
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->pizza_spawn, cdr))
+        &ros_message->tao1, cdr))
     {
       return false;
     }
   }
 
-  // Field name: pizza_save
+  // Field name: tao2
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->pizza_save, cdr))
+        &ros_message->tao2, cdr))
     {
       return false;
     }
   }
 
-  // Field name: pizza_clear
+  // Field name: tao3
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->pizza_clear, cdr))
+        &ros_message->tao3, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: tao4
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->tao4, cdr))
     {
       return false;
     }
@@ -118,43 +132,57 @@ static bool _Pizza_Request__cdr_deserialize(
     return false;
   }
   _Pizza_Request__ros_msg_type * ros_message = static_cast<_Pizza_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: pizza_spawn
+  // Field name: tao1
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->pizza_spawn))
+        cdr, &ros_message->tao1))
     {
       return false;
     }
   }
 
-  // Field name: pizza_save
+  // Field name: tao2
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->pizza_save))
+        cdr, &ros_message->tao2))
     {
       return false;
     }
   }
 
-  // Field name: pizza_clear
+  // Field name: tao3
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, Bool
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->pizza_clear))
+        cdr, &ros_message->tao3))
+    {
+      return false;
+    }
+  }
+
+  // Field name: tao4
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Int16
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->tao4))
     {
       return false;
     }
@@ -177,18 +205,22 @@ size_t get_serialized_size_turtle_interfaces__srv__Pizza_Request(
   (void)padding;
   (void)wchar_size;
 
-  // field.name pizza_spawn
+  // field.name tao1
 
-  current_alignment += get_serialized_size_std_msgs__msg__Bool(
-    &(ros_message->pizza_spawn), current_alignment);
-  // field.name pizza_save
+  current_alignment += get_serialized_size_std_msgs__msg__Int16(
+    &(ros_message->tao1), current_alignment);
+  // field.name tao2
 
-  current_alignment += get_serialized_size_std_msgs__msg__Bool(
-    &(ros_message->pizza_save), current_alignment);
-  // field.name pizza_clear
+  current_alignment += get_serialized_size_std_msgs__msg__Int16(
+    &(ros_message->tao2), current_alignment);
+  // field.name tao3
 
-  current_alignment += get_serialized_size_std_msgs__msg__Bool(
-    &(ros_message->pizza_clear), current_alignment);
+  current_alignment += get_serialized_size_std_msgs__msg__Int16(
+    &(ros_message->tao3), current_alignment);
+  // field.name tao4
+
+  current_alignment += get_serialized_size_std_msgs__msg__Int16(
+    &(ros_message->tao4), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -218,7 +250,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
   full_bounded = true;
   is_plain = true;
 
-  // member: pizza_spawn
+  // member: tao1
   {
     size_t array_size = 1;
 
@@ -229,7 +261,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
       bool inner_is_plain;
       size_t inner_size;
       inner_size =
-        max_serialized_size_std_msgs__msg__Bool(
+        max_serialized_size_std_msgs__msg__Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -237,7 +269,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
       is_plain &= inner_is_plain;
     }
   }
-  // member: pizza_save
+  // member: tao2
   {
     size_t array_size = 1;
 
@@ -248,7 +280,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
       bool inner_is_plain;
       size_t inner_size;
       inner_size =
-        max_serialized_size_std_msgs__msg__Bool(
+        max_serialized_size_std_msgs__msg__Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -256,7 +288,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
       is_plain &= inner_is_plain;
     }
   }
-  // member: pizza_clear
+  // member: tao3
   {
     size_t array_size = 1;
 
@@ -267,7 +299,26 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
       bool inner_is_plain;
       size_t inner_size;
       inner_size =
-        max_serialized_size_std_msgs__msg__Bool(
+        max_serialized_size_std_msgs__msg__Int16(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: tao4
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_std_msgs__msg__Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -284,7 +335,7 @@ size_t max_serialized_size_turtle_interfaces__srv__Pizza_Request(
     using DataType = turtle_interfaces__srv__Pizza_Request;
     is_plain =
       (
-      offsetof(DataType, pizza_clear) +
+      offsetof(DataType, tao4) +
       last_member_size
       ) == ret_val;
   }

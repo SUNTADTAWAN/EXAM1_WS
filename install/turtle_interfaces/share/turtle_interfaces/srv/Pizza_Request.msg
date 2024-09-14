@@ -1,3 +1,4 @@
-std_msgs/Bool pizza_spawn
-std_msgs/Bool pizza_save
-std_msgs/Bool pizza_clear
+std_msgs/Int16 tao1
+std_msgs/Int16 tao2
+std_msgs/Int16 tao3
+std_msgs/Int16 tao4

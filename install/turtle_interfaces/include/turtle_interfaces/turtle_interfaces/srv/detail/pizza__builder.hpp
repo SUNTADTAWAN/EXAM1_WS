@@ -21,15 +21,15 @@ namespace srv
 namespace builder
 {
 
-class Init_Pizza_Request_pizza_clear
+class Init_Pizza_Request_tao4
 {
 public:
-  explicit Init_Pizza_Request_pizza_clear(::turtle_interfaces::srv::Pizza_Request & msg)
+  explicit Init_Pizza_Request_tao4(::turtle_interfaces::srv::Pizza_Request & msg)
   : msg_(msg)
   {}
-  ::turtle_interfaces::srv::Pizza_Request pizza_clear(::turtle_interfaces::srv::Pizza_Request::_pizza_clear_type arg)
+  ::turtle_interfaces::srv::Pizza_Request tao4(::turtle_interfaces::srv::Pizza_Request::_tao4_type arg)
   {
-    msg_.pizza_clear = std::move(arg);
+    msg_.tao4 = std::move(arg);
     return std::move(msg_);
   }
 
@@ -37,32 +37,48 @@ private:
   ::turtle_interfaces::srv::Pizza_Request msg_;
 };
 
-class Init_Pizza_Request_pizza_save
+class Init_Pizza_Request_tao3
 {
 public:
-  explicit Init_Pizza_Request_pizza_save(::turtle_interfaces::srv::Pizza_Request & msg)
+  explicit Init_Pizza_Request_tao3(::turtle_interfaces::srv::Pizza_Request & msg)
   : msg_(msg)
   {}
-  Init_Pizza_Request_pizza_clear pizza_save(::turtle_interfaces::srv::Pizza_Request::_pizza_save_type arg)
+  Init_Pizza_Request_tao4 tao3(::turtle_interfaces::srv::Pizza_Request::_tao3_type arg)
   {
-    msg_.pizza_save = std::move(arg);
-    return Init_Pizza_Request_pizza_clear(msg_);
+    msg_.tao3 = std::move(arg);
+    return Init_Pizza_Request_tao4(msg_);
   }
 
 private:
   ::turtle_interfaces::srv::Pizza_Request msg_;
 };
 
-class Init_Pizza_Request_pizza_spawn
+class Init_Pizza_Request_tao2
 {
 public:
-  Init_Pizza_Request_pizza_spawn()
+  explicit Init_Pizza_Request_tao2(::turtle_interfaces::srv::Pizza_Request & msg)
+  : msg_(msg)
+  {}
+  Init_Pizza_Request_tao3 tao2(::turtle_interfaces::srv::Pizza_Request::_tao2_type arg)
+  {
+    msg_.tao2 = std::move(arg);
+    return Init_Pizza_Request_tao3(msg_);
+  }
+
+private:
+  ::turtle_interfaces::srv::Pizza_Request msg_;
+};
+
+class Init_Pizza_Request_tao1
+{
+public:
+  Init_Pizza_Request_tao1()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Pizza_Request_pizza_save pizza_spawn(::turtle_interfaces::srv::Pizza_Request::_pizza_spawn_type arg)
+  Init_Pizza_Request_tao2 tao1(::turtle_interfaces::srv::Pizza_Request::_tao1_type arg)
   {
-    msg_.pizza_spawn = std::move(arg);
-    return Init_Pizza_Request_pizza_save(msg_);
+    msg_.tao1 = std::move(arg);
+    return Init_Pizza_Request_tao2(msg_);
   }
 
 private:
@@ -80,7 +96,7 @@ template<>
 inline
 auto build<::turtle_interfaces::srv::Pizza_Request>()
 {
-  return turtle_interfaces::srv::builder::Init_Pizza_Request_pizza_spawn();
+  return turtle_interfaces::srv::builder::Init_Pizza_Request_tao1();
 }
 
 }  // namespace turtle_interfaces

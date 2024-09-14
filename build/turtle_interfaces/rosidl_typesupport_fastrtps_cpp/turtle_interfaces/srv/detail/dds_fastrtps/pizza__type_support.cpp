@@ -23,16 +23,16 @@ namespace msg
 namespace typesupport_fastrtps_cpp
 {
 bool cdr_serialize(
-  const std_msgs::msg::Bool &,
+  const std_msgs::msg::Int16 &,
   eprosima::fastcdr::Cdr &);
 bool cdr_deserialize(
   eprosima::fastcdr::Cdr &,
-  std_msgs::msg::Bool &);
+  std_msgs::msg::Int16 &);
 size_t get_serialized_size(
-  const std_msgs::msg::Bool &,
+  const std_msgs::msg::Int16 &,
   size_t current_alignment);
 size_t
-max_serialized_size_Bool(
+max_serialized_size_Int16(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
@@ -40,9 +40,11 @@ max_serialized_size_Bool(
 }  // namespace msg
 }  // namespace std_msgs
 
-// functions for std_msgs::msg::Bool already declared above
+// functions for std_msgs::msg::Int16 already declared above
 
-// functions for std_msgs::msg::Bool already declared above
+// functions for std_msgs::msg::Int16 already declared above
+
+// functions for std_msgs::msg::Int16 already declared above
 
 
 namespace turtle_interfaces
@@ -60,17 +62,21 @@ cdr_serialize(
   const turtle_interfaces::srv::Pizza_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: pizza_spawn
+  // Member: tao1
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.pizza_spawn,
+    ros_message.tao1,
     cdr);
-  // Member: pizza_save
+  // Member: tao2
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.pizza_save,
+    ros_message.tao2,
     cdr);
-  // Member: pizza_clear
+  // Member: tao3
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.pizza_clear,
+    ros_message.tao3,
+    cdr);
+  // Member: tao4
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.tao4,
     cdr);
   return true;
 }
@@ -81,17 +87,21 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   turtle_interfaces::srv::Pizza_Request & ros_message)
 {
-  // Member: pizza_spawn
+  // Member: tao1
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.pizza_spawn);
+    cdr, ros_message.tao1);
 
-  // Member: pizza_save
+  // Member: tao2
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.pizza_save);
+    cdr, ros_message.tao2);
 
-  // Member: pizza_clear
+  // Member: tao3
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.pizza_clear);
+    cdr, ros_message.tao3);
+
+  // Member: tao4
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.tao4);
 
   return true;
 }
@@ -109,21 +119,26 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: pizza_spawn
+  // Member: tao1
 
   current_alignment +=
     std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.pizza_spawn, current_alignment);
-  // Member: pizza_save
+    ros_message.tao1, current_alignment);
+  // Member: tao2
 
   current_alignment +=
     std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.pizza_save, current_alignment);
-  // Member: pizza_clear
+    ros_message.tao2, current_alignment);
+  // Member: tao3
 
   current_alignment +=
     std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.pizza_clear, current_alignment);
+    ros_message.tao3, current_alignment);
+  // Member: tao4
+
+  current_alignment +=
+    std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.tao4, current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -148,7 +163,7 @@ max_serialized_size_Pizza_Request(
   is_plain = true;
 
 
-  // Member: pizza_spawn
+  // Member: tao1
   {
     size_t array_size = 1;
 
@@ -158,7 +173,7 @@ max_serialized_size_Pizza_Request(
       bool inner_full_bounded;
       bool inner_is_plain;
       size_t inner_size =
-        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Bool(
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -167,7 +182,7 @@ max_serialized_size_Pizza_Request(
     }
   }
 
-  // Member: pizza_save
+  // Member: tao2
   {
     size_t array_size = 1;
 
@@ -177,7 +192,7 @@ max_serialized_size_Pizza_Request(
       bool inner_full_bounded;
       bool inner_is_plain;
       size_t inner_size =
-        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Bool(
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -186,7 +201,7 @@ max_serialized_size_Pizza_Request(
     }
   }
 
-  // Member: pizza_clear
+  // Member: tao3
   {
     size_t array_size = 1;
 
@@ -196,7 +211,26 @@ max_serialized_size_Pizza_Request(
       bool inner_full_bounded;
       bool inner_is_plain;
       size_t inner_size =
-        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Bool(
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Int16(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: tao4
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Int16(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;
@@ -213,7 +247,7 @@ max_serialized_size_Pizza_Request(
     using DataType = turtle_interfaces::srv::Pizza_Request;
     is_plain =
       (
-      offsetof(DataType, pizza_clear) +
+      offsetof(DataType, tao4) +
       last_member_size
       ) == ret_val;
   }

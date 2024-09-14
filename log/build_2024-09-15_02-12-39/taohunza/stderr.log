@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:99 (file):
+  file INSTALL cannot find
+  "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/share": No such
+  file or directory.
+
+[0m

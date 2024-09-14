@@ -13,14 +13,16 @@
 
 
 // Include directives for member types
-// Member `pizza_spawn`
-// Member `pizza_save`
-// Member `pizza_clear`
-#include "std_msgs/msg/bool.h"
-// Member `pizza_spawn`
-// Member `pizza_save`
-// Member `pizza_clear`
-#include "std_msgs/msg/detail/bool__rosidl_typesupport_introspection_c.h"
+// Member `tao1`
+// Member `tao2`
+// Member `tao3`
+// Member `tao4`
+#include "std_msgs/msg/int16.h"
+// Member `tao1`
+// Member `tao2`
+// Member `tao3`
+// Member `tao4`
+#include "std_msgs/msg/detail/int16__rosidl_typesupport_introspection_c.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -41,16 +43,16 @@ void turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__
   turtle_interfaces__srv__Pizza_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[4] = {
   {
-    "pizza_spawn",  // name
+    "tao1",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces__srv__Pizza_Request, pizza_spawn),  // bytes offset in struct
+    offsetof(turtle_interfaces__srv__Pizza_Request, tao1),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -60,14 +62,14 @@ static rosidl_typesupport_introspection_c__MessageMember turtle_interfaces__srv_
     NULL  // resize(index) function pointer
   },
   {
-    "pizza_save",  // name
+    "tao2",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces__srv__Pizza_Request, pizza_save),  // bytes offset in struct
+    offsetof(turtle_interfaces__srv__Pizza_Request, tao2),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -77,14 +79,31 @@ static rosidl_typesupport_introspection_c__MessageMember turtle_interfaces__srv_
     NULL  // resize(index) function pointer
   },
   {
-    "pizza_clear",  // name
+    "tao3",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces__srv__Pizza_Request, pizza_clear),  // bytes offset in struct
+    offsetof(turtle_interfaces__srv__Pizza_Request, tao3),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "tao4",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(turtle_interfaces__srv__Pizza_Request, tao4),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -98,7 +117,7 @@ static rosidl_typesupport_introspection_c__MessageMember turtle_interfaces__srv_
 static const rosidl_typesupport_introspection_c__MessageMembers turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_members = {
   "turtle_interfaces__srv",  // message namespace
   "Pizza_Request",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(turtle_interfaces__srv__Pizza_Request),
   turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array,  // message members
   turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -117,11 +136,13 @@ ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtle_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtle_interfaces, srv, Pizza_Request)() {
   turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[0].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Bool)();
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Int16)();
   turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[1].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Bool)();
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Int16)();
   turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[2].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Bool)();
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Int16)();
+  turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_member_array[3].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Int16)();
   if (!turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_type_support_handle.typesupport_identifier) {
     turtle_interfaces__srv__Pizza_Request__rosidl_typesupport_introspection_c__Pizza_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

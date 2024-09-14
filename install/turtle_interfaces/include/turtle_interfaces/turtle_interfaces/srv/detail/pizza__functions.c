@@ -11,10 +11,11 @@
 #include "rcutils/allocator.h"
 
 // Include directives for member types
-// Member `pizza_spawn`
-// Member `pizza_save`
-// Member `pizza_clear`
-#include "std_msgs/msg/detail/bool__functions.h"
+// Member `tao1`
+// Member `tao2`
+// Member `tao3`
+// Member `tao4`
+#include "std_msgs/msg/detail/int16__functions.h"
 
 bool
 turtle_interfaces__srv__Pizza_Request__init(turtle_interfaces__srv__Pizza_Request * msg)
@@ -22,18 +23,23 @@ turtle_interfaces__srv__Pizza_Request__init(turtle_interfaces__srv__Pizza_Reques
   if (!msg) {
     return false;
   }
-  // pizza_spawn
-  if (!std_msgs__msg__Bool__init(&msg->pizza_spawn)) {
+  // tao1
+  if (!std_msgs__msg__Int16__init(&msg->tao1)) {
     turtle_interfaces__srv__Pizza_Request__fini(msg);
     return false;
   }
-  // pizza_save
-  if (!std_msgs__msg__Bool__init(&msg->pizza_save)) {
+  // tao2
+  if (!std_msgs__msg__Int16__init(&msg->tao2)) {
     turtle_interfaces__srv__Pizza_Request__fini(msg);
     return false;
   }
-  // pizza_clear
-  if (!std_msgs__msg__Bool__init(&msg->pizza_clear)) {
+  // tao3
+  if (!std_msgs__msg__Int16__init(&msg->tao3)) {
+    turtle_interfaces__srv__Pizza_Request__fini(msg);
+    return false;
+  }
+  // tao4
+  if (!std_msgs__msg__Int16__init(&msg->tao4)) {
     turtle_interfaces__srv__Pizza_Request__fini(msg);
     return false;
   }
@@ -46,12 +52,14 @@ turtle_interfaces__srv__Pizza_Request__fini(turtle_interfaces__srv__Pizza_Reques
   if (!msg) {
     return;
   }
-  // pizza_spawn
-  std_msgs__msg__Bool__fini(&msg->pizza_spawn);
-  // pizza_save
-  std_msgs__msg__Bool__fini(&msg->pizza_save);
-  // pizza_clear
-  std_msgs__msg__Bool__fini(&msg->pizza_clear);
+  // tao1
+  std_msgs__msg__Int16__fini(&msg->tao1);
+  // tao2
+  std_msgs__msg__Int16__fini(&msg->tao2);
+  // tao3
+  std_msgs__msg__Int16__fini(&msg->tao3);
+  // tao4
+  std_msgs__msg__Int16__fini(&msg->tao4);
 }
 
 bool
@@ -60,21 +68,27 @@ turtle_interfaces__srv__Pizza_Request__are_equal(const turtle_interfaces__srv__P
   if (!lhs || !rhs) {
     return false;
   }
-  // pizza_spawn
-  if (!std_msgs__msg__Bool__are_equal(
-      &(lhs->pizza_spawn), &(rhs->pizza_spawn)))
+  // tao1
+  if (!std_msgs__msg__Int16__are_equal(
+      &(lhs->tao1), &(rhs->tao1)))
   {
     return false;
   }
-  // pizza_save
-  if (!std_msgs__msg__Bool__are_equal(
-      &(lhs->pizza_save), &(rhs->pizza_save)))
+  // tao2
+  if (!std_msgs__msg__Int16__are_equal(
+      &(lhs->tao2), &(rhs->tao2)))
   {
     return false;
   }
-  // pizza_clear
-  if (!std_msgs__msg__Bool__are_equal(
-      &(lhs->pizza_clear), &(rhs->pizza_clear)))
+  // tao3
+  if (!std_msgs__msg__Int16__are_equal(
+      &(lhs->tao3), &(rhs->tao3)))
+  {
+    return false;
+  }
+  // tao4
+  if (!std_msgs__msg__Int16__are_equal(
+      &(lhs->tao4), &(rhs->tao4)))
   {
     return false;
   }
@@ -89,21 +103,27 @@ turtle_interfaces__srv__Pizza_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // pizza_spawn
-  if (!std_msgs__msg__Bool__copy(
-      &(input->pizza_spawn), &(output->pizza_spawn)))
+  // tao1
+  if (!std_msgs__msg__Int16__copy(
+      &(input->tao1), &(output->tao1)))
   {
     return false;
   }
-  // pizza_save
-  if (!std_msgs__msg__Bool__copy(
-      &(input->pizza_save), &(output->pizza_save)))
+  // tao2
+  if (!std_msgs__msg__Int16__copy(
+      &(input->tao2), &(output->tao2)))
   {
     return false;
   }
-  // pizza_clear
-  if (!std_msgs__msg__Bool__copy(
-      &(input->pizza_clear), &(output->pizza_clear)))
+  // tao3
+  if (!std_msgs__msg__Int16__copy(
+      &(input->tao3), &(output->tao3)))
+  {
+    return false;
+  }
+  // tao4
+  if (!std_msgs__msg__Int16__copy(
+      &(input->tao4), &(output->tao4)))
   {
     return false;
   }

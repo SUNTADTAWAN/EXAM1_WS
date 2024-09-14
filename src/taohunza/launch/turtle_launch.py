@@ -1,11 +1,24 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import ExecuteProcess,DeclareLaunchArgument
+import os
+from ament_index_python.packages import get_package_share_directory
+import yaml
+
+def modify_config_namespace(path:str, new_path:str, namespace:str) -> None:
+    with open(path, 'r') as file:
+        data = yaml.load(file, Loader=yaml.SafeLoader)
+    new_data = {namespace: data}
+    with open(new_path, 'w') as file:
+        yaml.dump(new_data, file)
 
 def generate_launch_description():
     package_name = 'taohunza'
-    namespace = ['nongtao1','Foxy','Noetic','Humble','Iron']
+    namespace = ['nongtao1','Foxy','Noetic','Humble','Iron','Melodic']
     field = ['field1/','field2/']
+    params_path = os.path.join(get_package_share_directory('taohunza'), 'config', 'pizza_memory.yaml')
+    # params_path = '/src/taohunza/config/pizza_memory.yaml'
+    # params_path = os.path.join(os.getcwd(), 'src/taohunza/config/pizza_memory.yaml')
     return LaunchDescription([
         Node(
             package='turtlesim_plus',
@@ -71,8 +84,46 @@ def generate_launch_description():
             package=package_name,
             namespace= field[0]+namespace[0],
             executable='pizza_memory_node.py',
-            name='pizza_memory'
+            name='pizza_memory',
+            parameters=[params_path]
         ),
+        Node(
+            package=package_name,
+            namespace= field[1]+namespace[1],
+            executable='copy_turtle_node.py',
+            name='copy_node',
+            parameters=[params_path]
+            
+        ),
+        Node(
+            package=package_name,
+            namespace= field[1]+namespace[2],
+            executable='copy_turtle_node.py',
+            name='copy_node',
+            parameters=[params_path]
+        ),
+        Node(
+            package=package_name,
+            namespace= field[1]+namespace[3],
+            executable='copy_turtle_node.py',
+            name='copy_node',
+            parameters=[params_path]
+        ),
+        Node(
+            package=package_name,
+            namespace= field[1]+namespace[4],
+            executable='copy_turtle_node.py',
+            name='copy_node',
+            parameters=[params_path]
+        ),
+        Node(
+            package=package_name,
+            namespace= field[1]+namespace[5],
+            executable='Melodic_turtle_node.py',
+            name='copy_node',
+            parameters=[params_path]
+        ),
+
         # Node(
         #     package='turtlesim',
         #     executable='mimic',

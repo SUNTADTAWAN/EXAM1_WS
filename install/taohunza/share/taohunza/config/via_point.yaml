@@ -1,0 +1,8 @@
+field2/Foxy/copy_node:
+  ros__parameters:
+    pizza_positionX:
+    -1.023
+    -1.324
+    pizza_positionY:
+    -1.023
+    -1.324

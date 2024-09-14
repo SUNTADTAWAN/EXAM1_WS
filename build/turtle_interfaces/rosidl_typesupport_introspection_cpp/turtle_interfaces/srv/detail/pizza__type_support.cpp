@@ -37,16 +37,16 @@ void Pizza_Request_fini_function(void * message_memory)
   typed_message->~Pizza_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Pizza_Request_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Pizza_Request_message_member_array[4] = {
   {
-    "pizza_spawn",  // name
+    "tao1",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Bool>(),  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Int16>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces::srv::Pizza_Request, pizza_spawn),  // bytes offset in struct
+    offsetof(turtle_interfaces::srv::Pizza_Request, tao1),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -56,14 +56,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Pizza_Request
     nullptr  // resize(index) function pointer
   },
   {
-    "pizza_save",  // name
+    "tao2",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Bool>(),  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Int16>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces::srv::Pizza_Request, pizza_save),  // bytes offset in struct
+    offsetof(turtle_interfaces::srv::Pizza_Request, tao2),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -73,14 +73,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Pizza_Request
     nullptr  // resize(index) function pointer
   },
   {
-    "pizza_clear",  // name
+    "tao3",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Bool>(),  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Int16>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(turtle_interfaces::srv::Pizza_Request, pizza_clear),  // bytes offset in struct
+    offsetof(turtle_interfaces::srv::Pizza_Request, tao3),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "tao4",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Int16>(),  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(turtle_interfaces::srv::Pizza_Request, tao4),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -94,7 +111,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Pizza_Request
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Pizza_Request_message_members = {
   "turtle_interfaces::srv",  // message namespace
   "Pizza_Request",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(turtle_interfaces::srv::Pizza_Request),
   Pizza_Request_message_member_array,  // message members
   Pizza_Request_init_function,  // function to initialize message memory (memory has to be allocated)

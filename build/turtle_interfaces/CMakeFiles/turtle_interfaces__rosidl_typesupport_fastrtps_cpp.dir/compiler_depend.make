@@ -196,7 +196,7 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesup
   /usr/include/c++/11/stdexcept \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.hpp \
   /opt/ros/humble/include/fastcdr/fastcdr/Cdr.h \
   /opt/ros/humble/include/fastcdr/fastcdr/fastcdr_dll.h \
   /opt/ros/humble/include/fastcdr/fastcdr/config.h \
@@ -584,10 +584,6 @@ rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/pizza__rosidl_types
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -619,6 +615,12 @@ rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/pizza__rosidl_types
 /usr/include/c++/11/bits/align.h:
 
 /usr/include/c++/11/vector:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -771,8 +773,6 @@ rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/pizza__rosidl_types
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 

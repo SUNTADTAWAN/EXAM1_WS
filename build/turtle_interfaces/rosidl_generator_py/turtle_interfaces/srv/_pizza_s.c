@@ -17,17 +17,21 @@
 #include "turtle_interfaces/srv/detail/pizza__functions.h"
 
 ROSIDL_GENERATOR_C_IMPORT
-bool std_msgs__msg__bool__convert_from_py(PyObject * _pymsg, void * _ros_message);
+bool std_msgs__msg__int16__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * std_msgs__msg__bool__convert_to_py(void * raw_ros_message);
+PyObject * std_msgs__msg__int16__convert_to_py(void * raw_ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-bool std_msgs__msg__bool__convert_from_py(PyObject * _pymsg, void * _ros_message);
+bool std_msgs__msg__int16__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * std_msgs__msg__bool__convert_to_py(void * raw_ros_message);
+PyObject * std_msgs__msg__int16__convert_to_py(void * raw_ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-bool std_msgs__msg__bool__convert_from_py(PyObject * _pymsg, void * _ros_message);
+bool std_msgs__msg__int16__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * std_msgs__msg__bool__convert_to_py(void * raw_ros_message);
+PyObject * std_msgs__msg__int16__convert_to_py(void * raw_ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__int16__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__int16__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool turtle_interfaces__srv__pizza__request__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -62,34 +66,45 @@ bool turtle_interfaces__srv__pizza__request__convert_from_py(PyObject * _pymsg, 
     assert(strncmp("turtle_interfaces.srv._pizza.Pizza_Request", full_classname_dest, 42) == 0);
   }
   turtle_interfaces__srv__Pizza_Request * ros_message = _ros_message;
-  {  // pizza_spawn
-    PyObject * field = PyObject_GetAttrString(_pymsg, "pizza_spawn");
+  {  // tao1
+    PyObject * field = PyObject_GetAttrString(_pymsg, "tao1");
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__bool__convert_from_py(field, &ros_message->pizza_spawn)) {
+    if (!std_msgs__msg__int16__convert_from_py(field, &ros_message->tao1)) {
       Py_DECREF(field);
       return false;
     }
     Py_DECREF(field);
   }
-  {  // pizza_save
-    PyObject * field = PyObject_GetAttrString(_pymsg, "pizza_save");
+  {  // tao2
+    PyObject * field = PyObject_GetAttrString(_pymsg, "tao2");
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__bool__convert_from_py(field, &ros_message->pizza_save)) {
+    if (!std_msgs__msg__int16__convert_from_py(field, &ros_message->tao2)) {
       Py_DECREF(field);
       return false;
     }
     Py_DECREF(field);
   }
-  {  // pizza_clear
-    PyObject * field = PyObject_GetAttrString(_pymsg, "pizza_clear");
+  {  // tao3
+    PyObject * field = PyObject_GetAttrString(_pymsg, "tao3");
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__bool__convert_from_py(field, &ros_message->pizza_clear)) {
+    if (!std_msgs__msg__int16__convert_from_py(field, &ros_message->tao3)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // tao4
+    PyObject * field = PyObject_GetAttrString(_pymsg, "tao4");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__int16__convert_from_py(field, &ros_message->tao4)) {
       Py_DECREF(field);
       return false;
     }
@@ -117,42 +132,56 @@ PyObject * turtle_interfaces__srv__pizza__request__convert_to_py(void * raw_ros_
     }
   }
   turtle_interfaces__srv__Pizza_Request * ros_message = (turtle_interfaces__srv__Pizza_Request *)raw_ros_message;
-  {  // pizza_spawn
+  {  // tao1
     PyObject * field = NULL;
-    field = std_msgs__msg__bool__convert_to_py(&ros_message->pizza_spawn);
+    field = std_msgs__msg__int16__convert_to_py(&ros_message->tao1);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "pizza_spawn", field);
+      int rc = PyObject_SetAttrString(_pymessage, "tao1", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // pizza_save
+  {  // tao2
     PyObject * field = NULL;
-    field = std_msgs__msg__bool__convert_to_py(&ros_message->pizza_save);
+    field = std_msgs__msg__int16__convert_to_py(&ros_message->tao2);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "pizza_save", field);
+      int rc = PyObject_SetAttrString(_pymessage, "tao2", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // pizza_clear
+  {  // tao3
     PyObject * field = NULL;
-    field = std_msgs__msg__bool__convert_to_py(&ros_message->pizza_clear);
+    field = std_msgs__msg__int16__convert_to_py(&ros_message->tao3);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "pizza_clear", field);
+      int rc = PyObject_SetAttrString(_pymessage, "tao3", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // tao4
+    PyObject * field = NULL;
+    field = std_msgs__msg__int16__convert_to_py(&ros_message->tao4);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "tao4", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

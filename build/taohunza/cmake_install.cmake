@@ -67,14 +67,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES
-    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/dummy_script.py"
-    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/turtle_teleop_node.py"
-    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/pizza_memory_node.py"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/taohunza/cpp_node_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/taohunza/cpp_node_test")
     file(RPATH_CHECK
@@ -95,7 +87,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/turtle_teleop_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/pizza_memory_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/copy_turtle_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/Melodic_turtle_node.py"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/launch"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/config"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/taohunza"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

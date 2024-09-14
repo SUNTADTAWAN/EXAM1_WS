@@ -42,9 +42,9 @@ class Metaclass_Pizza_Request(type):
             cls._TYPE_SUPPORT = module.type_support_msg__srv__pizza__request
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__pizza__request
 
-            from std_msgs.msg import Bool
-            if Bool.__class__._TYPE_SUPPORT is None:
-                Bool.__class__.__import_type_support__()
+            from std_msgs.msg import Int16
+            if Int16.__class__._TYPE_SUPPORT is None:
+                Int16.__class__.__import_type_support__()
 
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
@@ -59,33 +59,38 @@ class Pizza_Request(metaclass=Metaclass_Pizza_Request):
     """Message class 'Pizza_Request'."""
 
     __slots__ = [
-        '_pizza_spawn',
-        '_pizza_save',
-        '_pizza_clear',
+        '_tao1',
+        '_tao2',
+        '_tao3',
+        '_tao4',
     ]
 
     _fields_and_field_types = {
-        'pizza_spawn': 'std_msgs/Bool',
-        'pizza_save': 'std_msgs/Bool',
-        'pizza_clear': 'std_msgs/Bool',
+        'tao1': 'std_msgs/Int16',
+        'tao2': 'std_msgs/Int16',
+        'tao3': 'std_msgs/Int16',
+        'tao4': 'std_msgs/Int16',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Bool'),  # noqa: E501
-        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Bool'),  # noqa: E501
-        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Bool'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Int16'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Int16'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Int16'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Int16'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        from std_msgs.msg import Bool
-        self.pizza_spawn = kwargs.get('pizza_spawn', Bool())
-        from std_msgs.msg import Bool
-        self.pizza_save = kwargs.get('pizza_save', Bool())
-        from std_msgs.msg import Bool
-        self.pizza_clear = kwargs.get('pizza_clear', Bool())
+        from std_msgs.msg import Int16
+        self.tao1 = kwargs.get('tao1', Int16())
+        from std_msgs.msg import Int16
+        self.tao2 = kwargs.get('tao2', Int16())
+        from std_msgs.msg import Int16
+        self.tao3 = kwargs.get('tao3', Int16())
+        from std_msgs.msg import Int16
+        self.tao4 = kwargs.get('tao4', Int16())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -116,11 +121,13 @@ class Pizza_Request(metaclass=Metaclass_Pizza_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.pizza_spawn != other.pizza_spawn:
+        if self.tao1 != other.tao1:
             return False
-        if self.pizza_save != other.pizza_save:
+        if self.tao2 != other.tao2:
             return False
-        if self.pizza_clear != other.pizza_clear:
+        if self.tao3 != other.tao3:
+            return False
+        if self.tao4 != other.tao4:
             return False
         return True
 
@@ -130,46 +137,60 @@ class Pizza_Request(metaclass=Metaclass_Pizza_Request):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def pizza_spawn(self):
-        """Message field 'pizza_spawn'."""
-        return self._pizza_spawn
+    def tao1(self):
+        """Message field 'tao1'."""
+        return self._tao1
 
-    @pizza_spawn.setter
-    def pizza_spawn(self, value):
+    @tao1.setter
+    def tao1(self, value):
         if __debug__:
-            from std_msgs.msg import Bool
+            from std_msgs.msg import Int16
             assert \
-                isinstance(value, Bool), \
-                "The 'pizza_spawn' field must be a sub message of type 'Bool'"
-        self._pizza_spawn = value
+                isinstance(value, Int16), \
+                "The 'tao1' field must be a sub message of type 'Int16'"
+        self._tao1 = value
 
     @builtins.property
-    def pizza_save(self):
-        """Message field 'pizza_save'."""
-        return self._pizza_save
+    def tao2(self):
+        """Message field 'tao2'."""
+        return self._tao2
 
-    @pizza_save.setter
-    def pizza_save(self, value):
+    @tao2.setter
+    def tao2(self, value):
         if __debug__:
-            from std_msgs.msg import Bool
+            from std_msgs.msg import Int16
             assert \
-                isinstance(value, Bool), \
-                "The 'pizza_save' field must be a sub message of type 'Bool'"
-        self._pizza_save = value
+                isinstance(value, Int16), \
+                "The 'tao2' field must be a sub message of type 'Int16'"
+        self._tao2 = value
 
     @builtins.property
-    def pizza_clear(self):
-        """Message field 'pizza_clear'."""
-        return self._pizza_clear
+    def tao3(self):
+        """Message field 'tao3'."""
+        return self._tao3
 
-    @pizza_clear.setter
-    def pizza_clear(self, value):
+    @tao3.setter
+    def tao3(self, value):
         if __debug__:
-            from std_msgs.msg import Bool
+            from std_msgs.msg import Int16
             assert \
-                isinstance(value, Bool), \
-                "The 'pizza_clear' field must be a sub message of type 'Bool'"
-        self._pizza_clear = value
+                isinstance(value, Int16), \
+                "The 'tao3' field must be a sub message of type 'Int16'"
+        self._tao3 = value
+
+    @builtins.property
+    def tao4(self):
+        """Message field 'tao4'."""
+        return self._tao4
+
+    @tao4.setter
+    def tao4(self, value):
+        if __debug__:
+            from std_msgs.msg import Int16
+            assert \
+                isinstance(value, Int16), \
+                "The 'tao4' field must be a sub message of type 'Int16'"
+        self._tao4 = value
 
 
 # Import statements for member types

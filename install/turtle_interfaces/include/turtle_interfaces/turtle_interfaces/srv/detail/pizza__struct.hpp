@@ -16,10 +16,11 @@
 
 
 // Include directives for member types
-// Member 'pizza_spawn'
-// Member 'pizza_save'
-// Member 'pizza_clear'
-#include "std_msgs/msg/detail/bool__struct.hpp"
+// Member 'tao1'
+// Member 'tao2'
+// Member 'tao3'
+// Member 'tao4'
+#include "std_msgs/msg/detail/int16__struct.hpp"
 
 #ifndef _WIN32
 # define DEPRECATED__turtle_interfaces__srv__Pizza_Request __attribute__((deprecated))
@@ -40,49 +41,60 @@ struct Pizza_Request_
   using Type = Pizza_Request_<ContainerAllocator>;
 
   explicit Pizza_Request_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : pizza_spawn(_init),
-    pizza_save(_init),
-    pizza_clear(_init)
+  : tao1(_init),
+    tao2(_init),
+    tao3(_init),
+    tao4(_init)
   {
     (void)_init;
   }
 
   explicit Pizza_Request_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : pizza_spawn(_alloc, _init),
-    pizza_save(_alloc, _init),
-    pizza_clear(_alloc, _init)
+  : tao1(_alloc, _init),
+    tao2(_alloc, _init),
+    tao3(_alloc, _init),
+    tao4(_alloc, _init)
   {
     (void)_init;
   }
 
   // field types and members
-  using _pizza_spawn_type =
-    std_msgs::msg::Bool_<ContainerAllocator>;
-  _pizza_spawn_type pizza_spawn;
-  using _pizza_save_type =
-    std_msgs::msg::Bool_<ContainerAllocator>;
-  _pizza_save_type pizza_save;
-  using _pizza_clear_type =
-    std_msgs::msg::Bool_<ContainerAllocator>;
-  _pizza_clear_type pizza_clear;
+  using _tao1_type =
+    std_msgs::msg::Int16_<ContainerAllocator>;
+  _tao1_type tao1;
+  using _tao2_type =
+    std_msgs::msg::Int16_<ContainerAllocator>;
+  _tao2_type tao2;
+  using _tao3_type =
+    std_msgs::msg::Int16_<ContainerAllocator>;
+  _tao3_type tao3;
+  using _tao4_type =
+    std_msgs::msg::Int16_<ContainerAllocator>;
+  _tao4_type tao4;
 
   // setters for named parameter idiom
-  Type & set__pizza_spawn(
-    const std_msgs::msg::Bool_<ContainerAllocator> & _arg)
+  Type & set__tao1(
+    const std_msgs::msg::Int16_<ContainerAllocator> & _arg)
   {
-    this->pizza_spawn = _arg;
+    this->tao1 = _arg;
     return *this;
   }
-  Type & set__pizza_save(
-    const std_msgs::msg::Bool_<ContainerAllocator> & _arg)
+  Type & set__tao2(
+    const std_msgs::msg::Int16_<ContainerAllocator> & _arg)
   {
-    this->pizza_save = _arg;
+    this->tao2 = _arg;
     return *this;
   }
-  Type & set__pizza_clear(
-    const std_msgs::msg::Bool_<ContainerAllocator> & _arg)
+  Type & set__tao3(
+    const std_msgs::msg::Int16_<ContainerAllocator> & _arg)
   {
-    this->pizza_clear = _arg;
+    this->tao3 = _arg;
+    return *this;
+  }
+  Type & set__tao4(
+    const std_msgs::msg::Int16_<ContainerAllocator> & _arg)
+  {
+    this->tao4 = _arg;
     return *this;
   }
 
@@ -128,13 +140,16 @@ struct Pizza_Request_
   // comparison operators
   bool operator==(const Pizza_Request_ & other) const
   {
-    if (this->pizza_spawn != other.pizza_spawn) {
+    if (this->tao1 != other.tao1) {
       return false;
     }
-    if (this->pizza_save != other.pizza_save) {
+    if (this->tao2 != other.tao2) {
       return false;
     }
-    if (this->pizza_clear != other.pizza_clear) {
+    if (this->tao3 != other.tao3) {
+      return false;
+    }
+    if (this->tao4 != other.tao4) {
       return false;
     }
     return true;
