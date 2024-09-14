@@ -47,6 +47,43 @@
    ```
 
 
+## How to Use
+
+1. Use keyboard for control turtle :
+   "
+   ---------------------------
+Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+
+For Holonomic mode (strafing), hold down the shift key:
+---------------------------
+   U    I    O
+   J    K    L
+   M    <    >
+
+t : up (+z)
+b : down (-z)
+
+anything else : stop
+
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+
+For Pizza command:
+---------------------------
+space bar : spawn pizza
+    s     : save pizza
+    r     : clear pizza
+
+
+CTRL-C to quit "
+
+
+
+
 ## How to Fix when Bug
 1. If it cannot run teleop_twist_keyboard :
    
