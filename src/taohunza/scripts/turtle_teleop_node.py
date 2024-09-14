@@ -16,11 +16,12 @@ import numpy as np
 class TeleopTurtleNode(Node):
     def __init__(self):
         super().__init__('turtle_teleop_node')
-        self.create_subscription(Twist,'cmd_vel',self.vel_callback,10)
+        # self.create_subscription(Twist,'cmd_vel',self.vel_callback,10)
         self.create_subscription(Pose,'pose',self.pose_callback,10)
         self.create_subscription(Bool,'spawn_pizza_sub',self.spawn_pizza_callback,10)
         self.create_subscription(Bool,'save_pizza',self.save_pizza_callback,10)
         self.create_subscription(Bool,'clear_pizza',self.clear_pizza_callback,10)
+        self.cmd_vel = self.create_publisher(Twist,'cmd_vel',10)
         self.send_pizza_positionX = self.create_publisher(Float64MultiArray,'pizza_posX',10)
         self.send_pizza_positionY = self.create_publisher(Float64MultiArray,'pizza_posY',10)
         self.send_state = self.create_publisher(Int16,'now_state',10)
@@ -41,11 +42,12 @@ class TeleopTurtleNode(Node):
         # self.pizza_position3 = []
         # self.pizza_position4 = []
         self.state = 0
+        self.start_eat = 0 
 
         self.kp_linear = 0.0
         self.kp_angular = 0.0
-        self.kp = 0.8
-        self.kp_a = 20.0
+        self.kp = 1
+        self.kp_a = 10
         self.set_param = np.array([0.8,20.0])
 
         self.declare_parameter('frequency', 10.0)
@@ -91,15 +93,19 @@ class TeleopTurtleNode(Node):
             # self.get_logger().info(f'Pls Reset') 
             pass
     def clear_pizza_callback(self,msg):
-        pass
+        if msg.data:
+            self.start_eat = len(self.pizza_positionX)
+            self.target_x = self.pizza_positionX[0]
+            self.target_y = self.pizza_positionY[0]
+        # self.clear = msg.data
+        # pass
 
     # def pizza_callback(self, request:Pizza , response:Pizza):
     #     self.spawn = request.Request.pizza_spawn
     #     self.save = request.Request.pizza_save
     #     self.clear = request.Request.pizza_clear
 
-    def vel_callback(self,msg):
-        pass
+
     # def cpizza_pose_callback(self,msg):
     #     self.cpizza_pose[0] = msg.x
     #     self.cpizza_pose[1] = msg.y
@@ -127,11 +133,11 @@ class TeleopTurtleNode(Node):
         self.spawn_pizza_client.call_async(position_request)
 
         
-    # def cmdvel(self,v,w):
-    #     msg =  Twist()
-    #     msg.linear.x = v
-    #     msg.angular.z = w
-    #     self.cmd_vel_pub.publish(msg)
+    def cmdvel(self,v,w):
+        msg =  Twist()
+        msg.linear.x = v
+        msg.angular.z = w
+        self.cmd_vel.publish(msg)
         
 
     def pose_callback(self,msg):
@@ -140,32 +146,48 @@ class TeleopTurtleNode(Node):
         self.robot_pose[2] = msg.theta
 
     def timer_callback(self):
-        now_x = self.robot_pose[0]
-        now_y = self.robot_pose[1]
-        diff_x = self.target_x - now_x 
-        diff_y = self.target_y - now_y 
-        distance = np.sqrt((diff_x**2)+(diff_y**2))
-        diff_theta = np.arctan(diff_y/diff_x) - self.robot_pose[2]
-        # use_theta = np.arctan2(np.sin(diff_theta),np.cos(diff_theta))
-        use_theta = np.arctan2(diff_y,diff_x)  - self.robot_pose[2]
-        # print(self.robot_pose)
-        # print(self.mouse_pose)
-        # print(diff_x)
-        # print(diff_y)
-        # print(np.arctan(diff_y/diff_x))
-        # print(diff_theta)
-        # print(distance)
-        # print(use_theta)
+        # if self.clear:
+        #     self.start_eat = len(self.pizza_positionX)
+        if self.start_eat > 0:
+            now_x = self.robot_pose[0]
+            now_y = self.robot_pose[1]
+            diff_x = self.target_x - now_x 
+            diff_y = self.target_y - now_y 
+            distance = np.sqrt((diff_x**2)+(diff_y**2))
+            diff_theta = np.arctan(diff_y/diff_x) - self.robot_pose[2]
+            # use_theta = np.arctan2(np.sin(diff_theta),np.cos(diff_theta))
+            use_theta = np.arctan2(diff_y,diff_x)  - self.robot_pose[2]
+            wz = self.kp_a*use_theta
+            if(distance < 0.1):
+                self.eat_pizza()
+                self.eaten = 0
+                vx = 0.0
+                self.pizza_positionX.pop(0)
+                self.pizza_positionY.pop(0)
+                self.start_eat = len(self.pizza_positionX)
+                if self.start_eat > 0:
+                    self.target_x = self.pizza_positionX[0]
+                    self.target_y = self.pizza_positionY[0]
+                else:
+                    pass
+                
+                self.get_logger().info(f'afterclear {self.pizza_positionY}')
+            else:
+                self.eaten = 1
+                vx = self.kp*distance
+            self.cmdvel(vx,wz)
+        else:
+            pass
         # vx = 0.2*distance
         # vx = 0.8*distance
         # wz = 20*use_theta
-        wz = self.kp_a*use_theta
+        
         # if(diff_x < 0):
         #     wz = -2*use_theta
         # else:
         #     wz = 2*use_theta
         # wz = 0.2*diff_theta
-        # if(distance < 1):
+        # if(distance < 0.5):
         #     self.eat_pizza()
         #     self.eaten = 0
         #     vx = 0.0
