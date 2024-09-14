@@ -53,9 +53,11 @@
 
 moving around :
 
-    u    i    o
-    j    k    l
-    m    ,    .
+u    i    o
+
+j    k    l
+
+m    ,    .
 
 
 
