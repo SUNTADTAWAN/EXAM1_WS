@@ -9,6 +9,10 @@
     ```sh
     cd EXAM1_WS
     ```
+3. Install pynput
+    ```sh
+    pip install pynput
+    ```
 ### 2. Build the Firmware
 1. Build
     ```sh
