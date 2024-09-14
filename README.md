@@ -34,7 +34,7 @@
 ### 3. Run
 1. Run teleop_twist_keyboard with namespace :
     ```sh
-    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/your_namespace
+    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/field1/nongtao1
     ```
 
 2. Run launch file :
