@@ -22,8 +22,8 @@
 
 
 ## How To  Use
-### 1. Teleop_Node
+### 1. teleop_twist_keyboard
 1. Run teleop_twist_keyboard with namespace
     ```sh
-    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/turtle1
+    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/your_namespace
     ```
