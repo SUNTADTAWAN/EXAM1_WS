@@ -5,9 +5,13 @@
 
     1.1.taohunza package :
     ![Alt text](architecture.png)
-    This package have input from teleop_twist_keyboard package.
+    This package have 2 main package name teleop_twist_keyboard and turtlesim_plus.
+   
+    The teleop_twist_keyboard package use for recieve input from you keyboard.
 
-    This package have 3 Node :
+    The turtlesim_plus package use for interface and spawn turtle.
+
+    This package have 4 Node :
 
         copy_turtle_node : This node for control copy turtle.
    
