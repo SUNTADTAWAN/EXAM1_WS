@@ -2,7 +2,7 @@
 
 ## Information
 1. Architecture
-![Alt text](relative%20path/to/img.jpg?raw=true "Title")
+![Alt text](architecture.png)
 
 
 
