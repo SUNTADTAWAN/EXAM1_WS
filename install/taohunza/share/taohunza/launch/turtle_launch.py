@@ -17,6 +17,12 @@ def generate_launch_description():
             executable='turtle_teleop_node.py',
             name='controller'
         ),
+        Node(
+            package=package_name,
+            namespace= namespace[0],
+            executable='pizza_memory_node.py',
+            name='controller'
+        ),
         # Node(
         #     package='turtlesim',
         #     executable='mimic',

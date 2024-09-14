@@ -250,6 +250,9 @@ def main():
             pub_spawn.publish(bool_spawn_msg)
             pub_save.publish(bool_save_msg)
             pub_clear.publish(bool_clear_msg)
+            bool_spawn_msg.data = False
+            bool_save_msg.data = False
+            bool_clear_msg.data = False
 
     except Exception as e:
         print(e)

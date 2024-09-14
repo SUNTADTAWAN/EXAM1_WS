@@ -29,6 +29,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/dummy_script.py
   scripts/turtle_teleop_node.py
+  scripts/pizza_memory_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

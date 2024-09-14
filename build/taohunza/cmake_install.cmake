@@ -70,6 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES
     "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/dummy_script.py"
     "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/turtle_teleop_node.py"
+    "/home/aitthikit/Documents/GitHub/EXAM1_WS/src/taohunza/scripts/pizza_memory_node.py"
     )
 endif()
 

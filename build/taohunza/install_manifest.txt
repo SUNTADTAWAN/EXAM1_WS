@@ -8,6 +8,7 @@
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/dummy_module.py
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/dummy_script.py
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/turtle_teleop_node.py
+/home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/pizza_memory_node.py
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/lib/taohunza/cpp_node_test
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/taohunza/launch/turtle_launch.py
 /home/aitthikit/Documents/GitHub/EXAM1_WS/install/taohunza/share/ament_index/resource_index/package_run_dependencies/taohunza

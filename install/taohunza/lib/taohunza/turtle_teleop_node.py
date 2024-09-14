@@ -9,7 +9,7 @@ from turtlesim_plus_interfaces.srv import GivePosition
 from turtlesim.srv import Spawn
 from std_srvs.srv import Empty
 from turtle_interfaces.srv import Pizza
-from std_msgs.msg import Bool
+from std_msgs.msg import Bool,Float64MultiArray,Int16
 import numpy as np
 
 
@@ -21,6 +21,9 @@ class TeleopTurtleNode(Node):
         self.create_subscription(Bool,'spawn_pizza_sub',self.spawn_pizza_callback,10)
         self.create_subscription(Bool,'save_pizza',self.save_pizza_callback,10)
         self.create_subscription(Bool,'clear_pizza',self.clear_pizza_callback,10)
+        self.send_pizza_positionX = self.create_publisher(Float64MultiArray,'pizza_posX',10)
+        self.send_pizza_positionY = self.create_publisher(Float64MultiArray,'pizza_posY',10)
+        self.send_state = self.create_publisher(Int16,'now_state',10)
         # self.piazz_server = self.create_service(Pizza,'pizza_action',self.pizza_callback)
         self.spawn_pizza_client = self.create_client(GivePosition,'/spawn_pizza')
         self.eat_pizza_client = self.create_client(Empty,'eat')
@@ -33,6 +36,11 @@ class TeleopTurtleNode(Node):
         self.clear = False
         self.pizza_amount = 100
         self.now_pizza = 0
+        self.pizza_positionX = []
+        self.pizza_positionY = []
+        # self.pizza_position3 = []
+        # self.pizza_position4 = []
+        self.state = 0
 
         self.kp_linear = 0.0
         self.kp_angular = 0.0
@@ -54,12 +62,33 @@ class TeleopTurtleNode(Node):
         self.get_logger().info(f'State {msg}')
         if msg.data and self.now_pizza < self.pizza_amount:
             self.spawn_pizza(self.robot_pose[0],self.robot_pose[1])
+            if self.state < 4:
+                self.pizza_positionX.append(self.robot_pose[0])
+                self.pizza_positionY.append(self.robot_pose[1])
+                self.get_logger().info(f'pos {self.pizza_positionX} {self.pizza_positionY}')
+            else:
+                self.get_logger().info(f'Pls Reset')    
             self.now_pizza += 1
             self.get_logger().info(f'now pizza {self.now_pizza} robot pose {self.robot_pose}')
         else:
             pass
     def save_pizza_callback(self,msg):
-        pass
+        if msg.data and self.state < 4:
+            positionX = Float64MultiArray()
+            positionY = Float64MultiArray()
+            now_state = Int16()
+            positionX.data = self.pizza_positionX
+            positionY.data = self.pizza_positionY
+            self.send_pizza_positionX.publish(positionX)
+            self.send_pizza_positionY.publish(positionY)
+            self.pizza_positionX.clear()
+            self.pizza_positionY.clear()
+            self.get_logger().info(f'afterclear {self.pizza_positionY}')
+            self.state += 1
+            now_state.data = self.state
+            self.send_state.publish(now_state)
+        else:
+            self.get_logger().info(f'Pls Reset') 
     def clear_pizza_callback(self,msg):
         pass
 
