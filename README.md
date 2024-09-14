@@ -25,7 +25,7 @@
     source ~/EXAM1_WS/install/setup.bash 
     ```
 ### 3. Run
-1. Run teleop_twist_keyboard with namespace
+1. Run teleop_twist_keyboard with namespace 
     ```sh
     ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/your_namespace
     ```
@@ -38,7 +38,7 @@
 
 
 ## How to Fix when Bug
-1. If it cannot run teleop_twist_keyboard
+1. If it cannot run teleop_twist_keyboard :
     restart your terminal
     ```sh
     source install/setup.bash
