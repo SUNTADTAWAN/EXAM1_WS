@@ -2,7 +2,7 @@
 
 ## Information
 1. Architecture
-    <img src="/home/tadtawan/Pictures/Screenshots/Screenshot from 2024-09-15 00-29-15.png">
+
 
 
 
