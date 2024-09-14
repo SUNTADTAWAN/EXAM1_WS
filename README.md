@@ -1,5 +1,5 @@
 # FRA501 EXAM 6531 6562
-## How To Run
+
 ### 1. Setup the Environment
 1. Clone the repository:
     ```sh
@@ -22,8 +22,6 @@
     ```sh
     source ~/EXAM1_WS/install/setup.bash 
     ```
-
-## How To  Use
 ### 1. Run
 1. Run teleop_twist_keyboard with namespace
     ```sh
