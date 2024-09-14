@@ -1,0 +1,12 @@
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/uninstall.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/taohunza_uninstall.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/ament_cmake_python_copy_taohunza.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/ament_cmake_python_build_taohunza_egg.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/cpp_node_test.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/test.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/edit_cache.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/rebuild_cache.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/list_install_components.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/install.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/install/local.dir
+/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/install/strip.dir
