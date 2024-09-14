@@ -1,5 +1,5 @@
 # FRA501 EXAM 6531 6562
-## How to run
+## How To Run
 ### 1. Setup the Environment
 1. Clone the repository:
     ```sh
@@ -17,4 +17,8 @@
 2. Source workspace
     ```sh
     source ~/EXAM1_WS/install/setup.bash 
+    ```
+### 3. Run launch file
+    ```sh
+    ros2 launch 
     ```
