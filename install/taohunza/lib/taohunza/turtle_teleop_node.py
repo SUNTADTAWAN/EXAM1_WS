@@ -26,7 +26,7 @@ class TeleopTurtleNode(Node):
         self.send_pizza_positionY = self.create_publisher(Float64MultiArray,'pizza_posY',10)
         self.send_state = self.create_publisher(Int16,'now_state',10)
         # self.piazz_server = self.create_service(Pizza,'pizza_action',self.pizza_callback)
-        self.spawn_pizza_client = self.create_client(GivePosition,'/spawn_pizza')
+        self.spawn_pizza_client = self.create_client(GivePosition,'/field1'+'/spawn_pizza')
         self.eat_pizza_client = self.create_client(Empty,'eat')
         self.robot_pose = np.array([0.0,0.0,0.0])
         self.target_x = 5.44
@@ -93,7 +93,7 @@ class TeleopTurtleNode(Node):
             # self.get_logger().info(f'Pls Reset') 
             pass
     def clear_pizza_callback(self,msg):
-        if msg.data:
+        if msg.data and len(self.pizza_positionX) != 0:
             self.start_eat = len(self.pizza_positionX)
             self.target_x = self.pizza_positionX[0]
             self.target_y = self.pizza_positionY[0]
@@ -164,13 +164,18 @@ class TeleopTurtleNode(Node):
                 vx = 0.0
                 self.pizza_positionX.pop(0)
                 self.pizza_positionY.pop(0)
-                self.target_x = self.pizza_positionX[0]
-                self.target_y = self.pizza_positionY[0]
                 self.start_eat = len(self.pizza_positionX)
+                self.now_pizza -= 1
+                if self.start_eat > 0:
+                    self.target_x = self.pizza_positionX[0]
+                    self.target_y = self.pizza_positionY[0]
+                else:
+                    pass
+                
                 self.get_logger().info(f'afterclear {self.pizza_positionY}')
             else:
                 self.eaten = 1
-                vx = self.kp*distance
+                vx = (self.kp*distance)+1.0
             self.cmdvel(vx,wz)
         else:
             pass
