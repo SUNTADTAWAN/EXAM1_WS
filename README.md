@@ -51,7 +51,10 @@
 
 1. Use keyboard for control turtle
 2. Use keyboard for spawn / clear / save a Pizza
-
+3. Use rqt to config parameter of gain and pizza amount
+   ```sh
+   ros2 run rqt_reconfigure rqt_reconfigure
+   ```
 
 
 ## How to Fix when Bug
