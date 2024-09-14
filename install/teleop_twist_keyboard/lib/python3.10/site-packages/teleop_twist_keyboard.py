@@ -38,6 +38,7 @@ import geometry_msgs.msg
 from std_msgs.msg import Bool
 
 import rclpy
+from pynput import keyboard
 
 if sys.platform == 'win32':
     import msvcrt
@@ -204,10 +205,15 @@ def main():
                 y = moveBindings[key][1]
                 z = moveBindings[key][2]
                 th = moveBindings[key][3]
+                spawn_pizza = False
+                save_pizza = False
+                clear_pizza = False
             elif key in speedBindings.keys():
                 speed = speed * speedBindings[key][0]
                 turn = turn * speedBindings[key][1]
-
+                spawn_pizza = False
+                save_pizza = False
+                clear_pizza = False
                 print(vels(speed, turn))
                 if (status == 14):
                     print(msg)
