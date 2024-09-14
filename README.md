@@ -1,6 +1,6 @@
 # FRA501 EXAM 6531 6562
 
-##How to run
+## How to run
 
 ### 1. Setup the Environment
 1. Clone the repository:
