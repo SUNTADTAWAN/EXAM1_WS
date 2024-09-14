@@ -51,15 +51,16 @@ class TeleopTurtleNode(Node):
     
     def spawn_pizza_callback(self,msg):
         self.pizza_amount = self.get_parameter('pizza amount').get_parameter_value().double_value
-        if msg and self.now_pizza < self.pizza_amount:
+        self.get_logger().info(f'State {msg}')
+        if msg.data and self.now_pizza < self.pizza_amount:
             self.spawn_pizza(self.robot_pose[0],self.robot_pose[1])
             self.now_pizza += 1
             self.get_logger().info(f'now pizza {self.now_pizza} robot pose {self.robot_pose}')
         else:
             pass
-    def save_pizza_callback(self):
+    def save_pizza_callback(self,msg):
         pass
-    def clear_pizza_callback(self):
+    def clear_pizza_callback(self,msg):
         pass
 
     # def pizza_callback(self, request:Pizza , response:Pizza):
