@@ -14,7 +14,7 @@
     ```sh
     colon build
     ``` 
-2. Source
+2. Source workspace
     ```sh
     source ~/EXAM1_WS/install/setup.bash 
     ```
