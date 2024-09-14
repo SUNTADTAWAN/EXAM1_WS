@@ -41,7 +41,10 @@
    ```sh
    ros2 launch taohunza turtle_launch.py
    ```
-
+3. Run rqt
+   ```sh
+   rqt
+   ```
 
 
 ## How to Fix when Bug
