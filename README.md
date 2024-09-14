@@ -49,15 +49,8 @@
 
 ## How to Use
 
-1. Use keyboard for control turtle :
-
-moving around :
-
-u    i    o
-
-j    k    l
-
-m    ,    .
+1. Use keyboard for control turtle
+2. Use keyboard for spawn / clear / save pizza
 
 
 
