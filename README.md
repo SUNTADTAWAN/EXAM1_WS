@@ -8,3 +8,4 @@
     ```sh
     cd 
     ```
+### 2. Build the Firmware
