@@ -22,12 +22,16 @@
     ```sh
     source ~/EXAM1_WS/install/setup.bash 
     ```
-### 3. Run launch file
-
 
 ## How To  Use
-### 1. teleop_twist_keyboard
+### 1. Run
 1. Run teleop_twist_keyboard with namespace
     ```sh
     ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/your_namespace
     ```
+
+2. Run launch file
+   ```sh
+   ros2 launch taohunza turtle_launch.py
+   ```
+
