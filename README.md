@@ -7,6 +7,13 @@
     ![Alt text](architecture.png)
     This package have input from teleop_twist_keyboard package.
 
+    This package have 3 Node :
+
+    copy_turtle_node : This node for
+   
+    pizza_memory_node : This node for
+
+    turtle_teleop_node : This node for
 
 
 
