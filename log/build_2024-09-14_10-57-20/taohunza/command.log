@@ -1,0 +1,4 @@
+Invoking command in '/home/tadtawan/EXAM1_WS/build/taohunza': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16
+Invoked command in '/home/tadtawan/EXAM1_WS/build/taohunza' returned '0': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16
+Invoking command in '/home/tadtawan/EXAM1_WS/build/taohunza': /usr/bin/cmake --install /home/tadtawan/EXAM1_WS/build/taohunza
+Invoked command in '/home/tadtawan/EXAM1_WS/build/taohunza' returned '0': /usr/bin/cmake --install /home/tadtawan/EXAM1_WS/build/taohunza

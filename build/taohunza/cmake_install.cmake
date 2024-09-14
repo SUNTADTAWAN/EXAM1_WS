@@ -67,7 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES "/home/tadtawan/EXAM1_WS/src/taohunza/scripts/dummy_script.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/taohunza" TYPE PROGRAM FILES
+    "/home/tadtawan/EXAM1_WS/src/taohunza/scripts/dummy_script.py"
+    "/home/tadtawan/EXAM1_WS/src/taohunza/scripts/controller_node.py"
+    "/home/tadtawan/EXAM1_WS/src/taohunza/scripts/turtle_teleop_node.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -91,7 +95,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES "")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/taohunza" TYPE DIRECTORY FILES
+    "/home/tadtawan/EXAM1_WS/src/taohunza/scripts"
+    "/home/tadtawan/EXAM1_WS/src/taohunza/taohunza"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -7,7 +7,15 @@
 /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/dummy_module.py
 /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/__init__.py
 /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/dummy_script.py
+/home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/controller_node.py
+/home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/turtle_teleop_node.py
 /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/cpp_node_test
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/teleop_twist_keyboard.py
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/turtle_teleop_node.py
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/dummy_script.py
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/controller_node.py
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/taohunza/dummy_module.py
+/home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/taohunza/__init__.py
 /home/tadtawan/EXAM1_WS/install/taohunza/share/ament_index/resource_index/package_run_dependencies/taohunza
 /home/tadtawan/EXAM1_WS/install/taohunza/share/ament_index/resource_index/parent_prefix_path/taohunza
 /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/ament_prefix_path.sh

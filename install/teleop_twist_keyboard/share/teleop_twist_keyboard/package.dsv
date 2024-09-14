@@ -1,0 +1,12 @@
+source;share/teleop_twist_keyboard/hook/path.ps1
+source;share/teleop_twist_keyboard/hook/path.dsv
+source;share/teleop_twist_keyboard/hook/path.sh
+source;share/teleop_twist_keyboard/hook/pythonpath.ps1
+source;share/teleop_twist_keyboard/hook/pythonpath.dsv
+source;share/teleop_twist_keyboard/hook/pythonpath.sh
+source;share/teleop_twist_keyboard/hook/pythonscriptspath.ps1
+source;share/teleop_twist_keyboard/hook/pythonscriptspath.dsv
+source;share/teleop_twist_keyboard/hook/pythonscriptspath.sh
+source;share/teleop_twist_keyboard/hook/ament_prefix_path.ps1
+source;share/teleop_twist_keyboard/hook/ament_prefix_path.dsv
+source;share/teleop_twist_keyboard/hook/ament_prefix_path.sh

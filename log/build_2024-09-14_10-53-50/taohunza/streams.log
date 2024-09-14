@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/tadtawan/EXAM1_WS/build/taohunza': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16
+[0.041s] [100%] Built target cpp_node_test
+[0.044s] [100%] Built target ament_cmake_python_copy_taohunza
+[0.215s] running egg_info
+[0.215s] writing taohunza.egg-info/PKG-INFO
+[0.216s] writing dependency_links to taohunza.egg-info/dependency_links.txt
+[0.216s] writing top-level names to taohunza.egg-info/top_level.txt
+[0.217s] reading manifest file 'taohunza.egg-info/SOURCES.txt'
+[0.217s] writing manifest file 'taohunza.egg-info/SOURCES.txt'
+[0.233s] [100%] Built target ament_cmake_python_build_taohunza_egg
+[0.241s] Invoked command in '/home/tadtawan/EXAM1_WS/build/taohunza' returned '0': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16
+[0.263s] Invoking command in '/home/tadtawan/EXAM1_WS/build/taohunza': /usr/bin/cmake --install /home/tadtawan/EXAM1_WS/build/taohunza
+[0.268s] -- Install configuration: ""
+[0.268s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/pythonpath.sh
+[0.268s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/pythonpath.dsv
+[0.268s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info
+[0.268s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.268s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/top_level.txt
+[0.268s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.268s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza-0.0.0-py3.10.egg-info/PKG-INFO
+[0.268s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza
+[0.269s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/dummy_module.py
+[0.269s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza/__init__.py
+[0.291s] Listing '/home/tadtawan/EXAM1_WS/install/taohunza/local/lib/python3.10/dist-packages/taohunza'...
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/dummy_script.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/controller_node.py
+[0.293s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/teleop_twist_keyboard.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/turtle_teleop_node.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/lib/taohunza/cpp_node_test
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts
+[0.293s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/teleop_twist_keyboard.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/turtle_teleop_node.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/dummy_script.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/scripts/controller_node.py
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/taohunza
+[0.293s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/taohunza/dummy_module.py
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/taohunza/__init__.py
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/ament_index/resource_index/package_run_dependencies/taohunza
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/ament_index/resource_index/parent_prefix_path/taohunza
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/ament_prefix_path.sh
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/ament_prefix_path.dsv
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/path.sh
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/environment/path.dsv
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/local_setup.bash
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/local_setup.sh
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/local_setup.zsh
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/local_setup.dsv
+[0.294s] -- Installing: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/package.dsv
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/ament_index/resource_index/packages/taohunza
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/cmake/taohunzaConfig.cmake
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/cmake/taohunzaConfig-version.cmake
+[0.294s] -- Up-to-date: /home/tadtawan/EXAM1_WS/install/taohunza/share/taohunza/package.xml
+[0.295s] Invoked command in '/home/tadtawan/EXAM1_WS/build/taohunza' returned '0': /usr/bin/cmake --install /home/tadtawan/EXAM1_WS/build/taohunza

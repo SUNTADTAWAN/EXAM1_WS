@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/tadtawan/EXAM1_WS/build/taohunza': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.230s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.296s] Error parsing '/home/tadtawan/EXAM1_WS/src/taohunza/package.xml':
+[0.324s] Traceback (most recent call last):
+[0.324s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.324s]     main()
+[0.324s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.324s]     raise e
+[0.324s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.324s]     package = parse_package_string(
+[0.324s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.324s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.324s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tadtawan/EXAM1_WS/src/taohunza/package.xml':
+[0.324s] Error(s):
+[0.324s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[0.332s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.332s]   execute_process(/usr/bin/python3
+[0.332s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.332s]   /home/tadtawan/EXAM1_WS/src/taohunza/package.xml
+[0.332s]   /home/tadtawan/EXAM1_WS/build/taohunza/ament_cmake_core/package.cmake)
+[0.332s]   returned error code 1
+[0.332s] Call Stack (most recent call first):
+[0.332s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.332s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[0.332s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.332s]   CMakeLists.txt:26 (ament_python_install_package)
+[0.332s] 
+[0.332s] [0m
+[0.332s] -- Configuring incomplete, errors occurred!
+[0.332s] See also "/home/tadtawan/EXAM1_WS/build/taohunza/CMakeFiles/CMakeOutput.log".
+[0.338s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.339s] Invoked command in '/home/tadtawan/EXAM1_WS/build/taohunza' returned '2': /usr/bin/cmake --build /home/tadtawan/EXAM1_WS/build/taohunza -- -j16 -l16

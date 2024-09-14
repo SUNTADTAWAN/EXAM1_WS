@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: teleop-twist-keyboard
+Version: 0.0.0
+Summary: Teleop from the keyboard.
+Home-page: UNKNOWN
+Maintainer: Rohan Agrawal
+Maintainer-email: rohan@osrfoundation.org
+License: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

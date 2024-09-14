@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/teleop_keyboard/teleop_keyboard.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_keyboard/teleop_keyboard.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop_keyboard/teleop_keyboard.egg-info/entry_points.txt
+writing requirements to ../../build/teleop_keyboard/teleop_keyboard.egg-info/requires.txt
+writing top-level names to ../../build/teleop_keyboard/teleop_keyboard.egg-info/top_level.txt
+reading manifest file '../../build/teleop_keyboard/teleop_keyboard.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/teleop_keyboard/teleop_keyboard.egg-info/SOURCES.txt'
+running build
+running build_py
+copying teleop_twist_keyboard.py -> /home/tadtawan/EXAM1_WS/build/teleop_keyboard/build/lib
+running install
+running install_lib
+copying /home/tadtawan/EXAM1_WS/build/teleop_keyboard/build/lib/teleop_twist_keyboard.py -> /home/tadtawan/EXAM1_WS/install/teleop_keyboard/lib/python3.10/site-packages
+byte-compiling /home/tadtawan/EXAM1_WS/install/teleop_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+running install_data
+error: can't copy 'resource/teleop_keyboard': doesn't exist or not a regular file
