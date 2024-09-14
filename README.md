@@ -40,8 +40,8 @@
 ## How to Fix when Bug
 1. If it cannot run teleop_twist_keyboard
    
-    ####1.1.dd
-   
+    1.1. Restart your terminal
+    2.2. Rebuild & source
     
     ```sh
     source install/setup.bash
