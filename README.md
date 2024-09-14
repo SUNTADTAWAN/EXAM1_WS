@@ -50,7 +50,7 @@
 ## How to Use
 
 1. Use keyboard for control turtle
-2. Use keyboard for spawn / clear / save pizza
+2. Use keyboard for spawn / clear / save a Pizza
 
 
 
