@@ -65,6 +65,8 @@
    ```sh
    rqt
    ```
+3. Tune gain
+   -Tune kp / kp_angular in rqt
 
 
 ## How to Use
