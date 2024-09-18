@@ -47,7 +47,7 @@
     ``` 
 2. Source workspace :
     ```sh
-    source ~/EXAM1_WS/install/setup.bash 
+    source install/setup.bash 
     ```
 ### 3. Run
 1. Source
