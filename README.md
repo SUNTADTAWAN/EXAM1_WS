@@ -50,18 +50,18 @@
 ### 3. Run
 1. Source
     ```sh
-    ros2
+    ros2 ~/EXAM1_WS/install/setup.bash
     ```
-1. Run teleop_twist_keyboard with namespace :
+2. Run teleop_twist_keyboard with namespace :
     ```sh
     ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/field1/nongtao1
     ```
 
-2. Run launch file :
+3. Run launch file :
    ```sh
    ros2 launch taohunza turtle_launch.py
    ```
-3. Run rqt :
+4. Run rqt :
    ```sh
    rqt
    ```
