@@ -26,10 +26,8 @@
 ## How to run
 
 ### 1. Setup the Environment
-1. Download workspace:
-    ```sh
-    
-    ```
+1. Download workspace EAXM1.zip :
+    Extract the zip file
 2. Navigate to the project directory :
     ```sh
     cd EXAM1_WS
