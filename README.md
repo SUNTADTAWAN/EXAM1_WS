@@ -26,9 +26,9 @@
 ## How to run
 
 ### 1. Setup the Environment
-1. Clone the repository :
+1. Download workspace:
     ```sh
-    git clone https://github.com/SUNTADTAWAN/EXAM1_WS.git
+    
     ```
 2. Navigate to the project directory :
     ```sh
