@@ -92,7 +92,11 @@
     colon build
     source install/setup.bash
     ```
-2. Something else :
+2. Turtle can't eat pizza :
+   
+   1.1. Tune gain (Recomend kp : 1 , kp_angular : 10)
+   
+4. Something else :
    
    2.1. Kill all node
    
