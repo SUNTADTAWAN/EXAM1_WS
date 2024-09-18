@@ -32,7 +32,11 @@
     ```sh
     cd EXAM1_WS
     ```
-3. Install pynput :
+3. Remove Build install and log Before build:
+    ```sh
+    rm -rf build/ install/ log/
+    ```
+4. Install pynput :
     ```sh
     pip install pynput
     ```
