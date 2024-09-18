@@ -50,7 +50,7 @@
 ### 3. Run
 1. Source
     ```sh
-    ros2 ~/EXAM1_WS/install/setup.bash
+    source ~/EXAM1_WS/install/setup.bash 
     ```
 2. Run teleop_twist_keyboard with namespace :
     ```sh
