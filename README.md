@@ -85,7 +85,7 @@
    For adjust Pizza amount and Controller gain.
 
 ## How to Fix when Bug
-1. If it cannot run teleop_twist_keyboard :
+1. If it cannot run teleop_twist_keyboard or launch file:
    
     1.1. Restart your terminal
    
