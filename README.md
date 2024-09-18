@@ -52,7 +52,7 @@
 ### 3. Run
 1. Source
     ```sh
-    source ~/EXAM1_WS/install/setup.bash 
+    source install/setup.bash 
     ```
 2. Run teleop_twist_keyboard with namespace :
     ```sh
